@@ -9,18 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.2.5",
+    "petra-plugin-wallet-adapter": "^0.4.5",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.5"
+    "@aptos-labs/ts-sdk": "^1.23.0",
+    "@aptos-labs/wallet-adapter-ant-design": "^3.0.1",
+    "@aptos-labs/wallet-adapter-react": "^3.5.1"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5"
+    "typescript": "^5"
   }
 }
