@@ -1,7 +1,6 @@
 "use client"
 import { WalletSelector } from "@aptos-labs/wallet-adapter-ant-design"; // wallet selector
 import "@aptos-labs/wallet-adapter-ant-design/dist/index.css"; // css for the wallet button 
-import Image from "next/image";
 
 export default function Home() {
   return (
